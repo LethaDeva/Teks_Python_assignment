@@ -3,50 +3,51 @@
 # set does not allows duplicates
 # set is mutsble
 
-# a = {1,2,3,4,5}
-# b = {"apple","graps","bananna","orange"}
-# c = {True, 3.2, 7 , "car", False}
+a = {1,2,3,4,5}
+b = {"apple","graps","bananna","orange"}
+c = {True, 3.2, 7 , "car", False}
 
 
 # removing dublictes from list[]
 
-# list = [1,2,2,5,6,6]
-# list = set ([1,2,2,5,6,6]) 
-# print(list)
+list = [1,2,2,5,6,6]
+list = set ([1,2,2,5,6,6]) 
+print(list)
 
 
 # removing dublictes from string ""
-# str = "deva","deva","ravi","shyam","raghu"
-# str = set (("deva","deva","ravi","shyam","raghu"))
-# print(str)
+
+str = "deva","deva","ravi","shyam","raghu"
+str = set (("deva","deva","ravi","shyam","raghu"))
+print(str)
 
 
 # removing dublictes from tuple()
 
-# tup = (12,"deva","deva",210.2,"radha")
-# tup = set((12,"deva","deva",210.2,"radha",))
-# print(tup)
+tup = (12,"deva","deva",210.2,"radha")
+tup = set((12,"deva","deva",210.2,"radha",))
+print(tup)
 
 
 # indexing in set's
 
-# tup = {1,2,3,3,5,36,55}
-# print(tup.add(25))
-# print(tup)
+tup = {1,2,3,3,5,36,55}
+print(tup.add(25))
+print(tup)
 
 
 # removing elements from set using
 
-# tup = {23,"deva",225.3,"deva","raghu"}
-# print(tup.remove("deva"))
-# print(tup)
+tup = {23,"deva",225.3,"deva","raghu"}
+print(tup.remove("deva"))
+print(tup)
 
 
 # discard is also nothing but remove
 
-# tup = {23,"deva",225.3,"deva","raghu"}
-# print(tup.discard("raghu"))
-# print(tup)
+tup = {23,"deva",225.3,"deva","raghu"}
+print(tup.discard("raghu"))
+print(tup)
 
 
 # 4 diffrent types of operations witch present in set's
@@ -59,15 +60,15 @@
 # union of A and B
 # it delets the dublicats and prints the output
 
-# tup1 = {25,36,55,22,56,25}
-# tup2 = {33,568,569,78,22}
-# print(tup1.union(tup2))
+tup1 = {25,36,55,22,56,25}
+tup2 = {33,568,569,78,22}
+print(tup1.union(tup2))
 
 # using symbolic representation
 
-# tup1 = {25,36,55,22,56,25}
-# tup2 = {33,568,569,78,22}
-# print(tup1 | tup2)
+tup1 = {25,36,55,22,56,25}
+tup2 = {33,568,569,78,22}
+print(tup1 | tup2)
 
 
 # intersection of A and B
